@@ -2941,7 +2941,7 @@ input, select, textarea {
 			outline: 0;
 			position: relative;
 			width: calc(50% - 1.25rem);
-			box-shadow: 3px 3px 3px 2px rgb(233, 231, 231);
+
 		}
 
 			.gallery a img {
@@ -3107,7 +3107,6 @@ input, select, textarea {
 				height: 25rem;
 				max-width: 100%;
 				object-fit: contain;
-				box-shadow: 3px 3px 3px 2px rgb(233, 231, 231);
 			}
 
 			.gallery a.portrait img {
@@ -3161,6 +3160,11 @@ input, select, textarea {
 
 			.gallery a.portrait img {
 				height: 14rem;
+			}
+
+			footer {
+				margin-top: 4rem;
+				/* margin-bottom: 0; */
 			}
 
 		}
