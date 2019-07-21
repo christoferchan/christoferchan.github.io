@@ -2941,13 +2941,14 @@ input, select, textarea {
 			outline: 0;
 			position: relative;
 			width: calc(50% - 1.25rem);
+			box-shadow: 3px 3px 3px 2px rgb(233, 231, 231);
 		}
 
 			.gallery a img {
 				display: block;
 				height: 25vw;
 				min-height: 18rem;
-				object-fit: cover;
+				object-fit: contain;
 				object-position: center;
 				width: 100%;
 			}
@@ -2959,7 +2960,7 @@ input, select, textarea {
 				.gallery a.landscape img {
 					max-height: 100%;
 					max-width: 100%;
-					object-fit: cover;
+					object-fit: contain;
 				}
 
 			.gallery a.portrait img {
@@ -3099,13 +3100,14 @@ input, select, textarea {
 			.gallery a img {
 				height: 20rem;
 				max-width: 100%;
-				object-fit: cover;
+				object-fit: contain;
 			}
 
 			.gallery a.landscape img {
 				height: 25rem;
 				max-width: 100%;
-				object-fit: cover;
+				object-fit: contain;
+				box-shadow: 3px 3px 3px 2px rgb(233, 231, 231);
 			}
 
 			.gallery a.portrait img {
@@ -3137,7 +3139,7 @@ input, select, textarea {
 					.gallery a.landscape img {
 						height: 20rem;
 						max-width: 100%;
-				object-fit: cover;
+						object-fit: contain;
 					}
 
 					.gallery a.portrait img {
@@ -3887,4 +3889,8 @@ input, select, textarea {
 			padding: 4rem;
 		}
 
+	}
+
+	.gtd {
+		object-fit: cover;
 	}
